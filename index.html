@@ -7,6 +7,68 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <main>
+        <div class="side-hero">
+            <div class="logo">
+                <img src="./odin-lined.png" alt="odin logo" class="odin">
+                <h1>Odin</h1>
+
+            </div>
+            <p>Photo by <span>Halie West</span>on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unplash</a></p>
+        </div>
+        <div class="form-header right">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="form-card right">
+            <form method="post" action="#">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div class="data-field">
+                        <label for="first-name">
+                            FIRST NAME
+                            <input id="first-name" name="first-name" type="text" required/>
+                        </label>
+                    </div>
+                    <div class="data-field">
+                        <label for="last-name">
+                            LAST NAME
+                            <input id="last-name" name="last-name" type="text" required/>
+                        </label>
+                    </div>
+                    
+                    <div class="data-field">
+                        <label for="email">
+                            EMAIL
+                            <input id="email" name="email" type="email" required/>
+                        </label>
+                    </div>
+                    <div class="data-field">
+                        <label for="phone-number">
+                            PHONE NUMBER
+                            <input id="phone-number" name="phone-number" type="tell" required/>
+                        </label>
+                    </div>
+                    <div class="data-field">
+                        <label for="password">
+                            PASSWORD
+                            <input id="password" name="password" type="password" required/>
+                        </label>
+                    </div>
+                    <div class="data-field">
+                        <label for="confirm-password">
+                            CONFIRM PASSWORD
+                            <input id="confirm-password" name="confirm-password" type="password" required/>
+                        </label>
+                    </div>
+                    
+                </fieldset>
+            </form>
+        </div>
+
+        <button class="btn" type="submit" form="form">Create Account</button>
+        <p>Already have an account?<a href="#">Log in</a></p>
+    </main>
 </body>
 </html>
